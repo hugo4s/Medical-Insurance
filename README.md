@@ -1,27 +1,38 @@
 <img src="https://github.com/hugo4s/coded_correspondence_python/assets/140451515/611eeabf-c0b8-4caa-9a57-30dee6e0acca" width="300"> 
 
 
-# Hurricane Analysis Project
+# Python Dictionaries: Medical Insurance Project
 
 ## Overview
-The Hurricane Analysis project demonstrates proficiency in Python programming, particularly in handling data related to Category 5 Hurricanes. This project involves writing functions to organize and manipulate hurricane data, showcasing skills in parameters, conditionals, lists, dictionaries, string manipulation, and return statements.
+The Medical Insurance Project aims to demonstrate proficiency in Python programming by efficiently organizing and updating medical records. This project utilizes Python dictionaries to create a database of medical records for patients.
 
 ## Project Goals
-- Data Processing: Update and process data on hurricane damages.
-- Data Organization: Construct dictionaries containing attributes of hurricanes and organize hurricanes by year.
-- Data Analysis: Analyze the impact of hurricanes by counting affected areas, identifying the most affected area, and determining the deadliest hurricane.
-- Rating Hurricanes: Rate hurricanes based on mortality and damage scales, and categorize them accordingly.
+- **Data Storage**: Organize patient names and insurance costs efficiently.
+- **Data Processing**: Update and manipulate medical data effectively.
+- **Database Management**: Create and maintain a dictionary-based medical records database.
+- **Data Access**: Retrieve and display specific medical information as needed.
 
 ## Prerequisites
-Completion of the Loops and Dictionaries sections of the Learn Python 3 Course or equivalent knowledge is recommended before attempting this project.
+Completion of the Basics of Python and Dictionaries sections of a Python programming course or equivalent knowledge is recommended before attempting this project.
 
 ## Project Requirements
-1. Update Recorded Damages: Write a function to update the recorded damages of hurricanes.
-2. Create a Table: Construct a dictionary containing various attributes of hurricanes.
-3. Organizing by Year: Convert the dictionary of hurricanes into a new dictionary organized by year.
-4. Counting Damaged Areas: Count how often each area is listed as an affected area of a hurricane.
-5. Calculating Maximum Hurricane Count: Find the area affected by the most hurricanes and how often it was hit.
-6. Calculating the Deadliest Hurricane: Identify the hurricane that caused the greatest number of deaths and the death toll.
-7. Rating Hurricanes by Mortality: Rate hurricanes based on a mortality scale and categorize them accordingly.
-8. Calculating Hurricane Maximum Damage: Determine the hurricane that caused the greatest damage and its cost.
-9. Rating Hurricanes by Damage: Rate hurricanes based on a damage scale and categorize them accordingly.
+1. **Storing Patient Names and Insurance Costs**:
+   - Create an empty dictionary called `medical_costs`.
+   - Add initial patient data to `medical_costs` and update it accordingly.
+   - Calculate and print the average insurance cost.
+
+2. **List Comprehension to Dictionary**:
+   - Create a dictionary mapping patient names to their ages using list comprehension.
+   - Retrieve and print Marina's age using the `.get()` method.
+
+3. **Using a Dictionary to Create a Medical Database**:
+   - Create a dictionary `medical_records` representing a database of medical records.
+   - Populate `medical_records` with data for multiple patients.
+   - Print specific medical information for individual patients.
+   - Remove a patient from `medical_records` if necessary.
+   - Iterate through `medical_records` to print detailed medical records for each patient.
+
+## Extra
+Congratulations on completing the project! For further practice and enhancement:
+- Implement a function `update_medical_records()` to update medical records dynamically.
+- Explore additional features to add to the medical records database.
